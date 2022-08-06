@@ -1,0 +1,17 @@
+{
+  "name": "waterbox",
+  "bin": "index.js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "Ariel Nogueira",
+  "license": "ISC",
+  "dependencies": {
+    "pkg": "^5.5.2"
+  },
+  "pkg": {
+    "targets": [
+      "node14"
+    ]
+  }
+}
