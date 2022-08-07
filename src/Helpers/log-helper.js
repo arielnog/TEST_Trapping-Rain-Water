@@ -1,5 +1,3 @@
-const fs = require("fs");
-
 class LogHelper {
     static success(message) {
         console.log('\x1b[33m', this.now(), ":\x1b[0m", '\x1b[32m', message, "\x1b[0m");  //cyan
@@ -18,6 +16,5 @@ class LogHelper {
         return m.toISOString().replace("T", " ").replace("Z", " ");
     }
 }
-
 
 module.exports = LogHelper
