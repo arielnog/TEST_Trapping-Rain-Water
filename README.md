@@ -2,7 +2,7 @@
 
 ## Executando o projeto
 
-###Metodo - Executável (Somente em Windows)
+### Metodo - Executável
 
 - Clicar no arquivo referente o seu Os que a aplicação será executada.
   - Para Linux -> `waterbox-linux`
