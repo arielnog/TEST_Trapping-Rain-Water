@@ -17,8 +17,7 @@
   },
   "pkg": {
     "targets": [
-      "node14",
-      "node14-linux"
+      "node14"
     ]
   }
 }

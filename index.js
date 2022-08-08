@@ -2,6 +2,7 @@ const LogHelper = require('./src/Helpers/log-helper');
 const Cases = require("./src/Entities/cases");
 const readlineSync = require('readline-sync');
 const CalculateService = require("./src/Service/calculate-service");
+const ValidateException = require("./src/Exception/validate-exception");
 
 
 (async () => {
@@ -13,7 +14,9 @@ const CalculateService = require("./src/Service/calculate-service");
     for (let i = 0; i < cases.repetition; i++) {
         const width = readlineSync.questionInt("Qual o comprimento da caixa d'agua? -> ");
 
-        if (width <= 2) {
+        let regex = new RegExp("/^[0-9]$/")
+
+        if (width <= 2 || regex.test(width)) {
             LogHelper.error("Comprimento da caixa d'agua inválida.")
             continue
         }
