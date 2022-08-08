@@ -1,11 +1,12 @@
 # WaterBox App
 
+Aplicação desenvolvida e testada utilizando o Os Windows.
+
 ## Executando o projeto
 
 ### Metodo - Executável
 
 - Clicar no arquivo referente o seu Os que a aplicação será executada.
-  - Para Linux -> `waterbox-linux`
   - Para Windows -> `waterbox-win.exe`
 
 ### Metodo - Comum

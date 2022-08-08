@@ -10,7 +10,7 @@ const CalculateService = require("./src/Service/calculate-service");
     const repetition = readlineSync.questionInt("Quantas vezes executadas o app? -> ");
     const cases = new Cases(repetition);
 
-    for (let i = 0; i < cases.getRepetion(); i++) {
+    for (let i = 0; i < cases.repetition; i++) {
         const width = readlineSync.questionInt("Qual o comprimento da caixa d'agua? -> ");
 
         if (width <= 2) {
