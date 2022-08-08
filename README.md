@@ -21,7 +21,14 @@ npm i
 - Após o sucesso da instalação, executar:
 
 ```
-node index.js
-``
+npm start
+```
 
 
+## Testes
+
+### Para executar os testes.
+
+```
+jest
+```
