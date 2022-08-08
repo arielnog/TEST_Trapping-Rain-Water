@@ -13,11 +13,11 @@ class Cases {
         let regex = new RegExp("/^[0-9]$/")
 
         if (!((value >= 1) && (value <= 100))) {
-            throw new ValidateException
+            throw new ValidateException("Número menor que o valor permitido.")
         }
 
         if ((regex.test(value))) {
-            throw new ValidateException("Não existe somente números")
+            throw new ValidateException("Não existe somente números.")
         }
 
         return value

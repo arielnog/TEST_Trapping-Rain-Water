@@ -8,4 +8,19 @@
   - Para Linux -> `waterbox-linux`
   - Para Windows -> `waterbox-win.exe`
 
-Ps. o intuito era utilizar o docker, mas por ser um simples executável tive problemas pra criar.
+### Metodo - Comum
+
+- Necessário ter uma versão do `Node.js` superior a 14.
+- Executar o comando:
+
+```
+npm i
+```
+
+- Após o sucesso da instalação, executar:
+
+```
+node index.js
+``
+
+

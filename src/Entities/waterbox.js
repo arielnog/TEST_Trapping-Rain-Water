@@ -1,3 +1,5 @@
+const LogHelper = require("../Helpers/log-helper");
+
 class Waterbox {
     constructor(width, height) {
         this.width = width;
@@ -8,7 +10,7 @@ class Waterbox {
 
     validate(width, height) {
         if (width !== height.length) {
-            LogHelper.error("A uma diferença no tamanho do ")
+            LogHelper.error("A uma diferença nos valores informados com o comprimento da caixa d'agua")
             return true
         }
     }
