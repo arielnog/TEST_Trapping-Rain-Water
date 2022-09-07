@@ -1,34 +1,44 @@
-# WaterBox App
+# TEST - Water Trap
 
 Aplicação desenvolvida e testada utilizando o Os Windows.
 
-## Executando o projeto
+## Ambiente
 
-### Metodo - Executável
+Essa aplicação necessita de:
 
-- Clicar no arquivo referente o seu Os que a aplicação será executada.
-  - Para Windows -> `waterbox-win.exe`
+- Node.js 14
 
-### Metodo - Comum
+### Pré-Requisitos
 
-- Necessário ter uma versão do `Node.js` superior a 14.
-- Executar o comando:
+- Para rodar o .EXE, é necessário do Windows.
+- Se não for usar o .EXE, necessita ter o Node.js instalado na máquina.
 
-```
+## Execução da aplicação
+
+### Método - Executável
+1. Passo
+   - Clicar no arquivo referente o seu Os que a aplicação será executada.
+     - Para Windows -> `waterbox-win.exe`
+
+### Método - Comum
+1. Passo
+   - Executar o comando:
+
+```shell
 npm i
 ```
-
-- Após o sucesso da instalação, executar:
-
-```
+2. Passo
+   - Após a instalação, executar:
+   
+```shell
 npm start
 ```
 
+## Adicionais
 
-## Testes
+### Testes
 
-### Para executar os testes.
-
+- Para executar os testes
 ```
 jest
 ```
