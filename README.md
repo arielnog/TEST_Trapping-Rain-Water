@@ -1,12 +1,18 @@
-# TEST - Water Trap
+# TEST - Trapping Rain Water
 
-Aplicação desenvolvida e testada utilizando o Os Windows.
+A aplicação desenvolvida é a resposta para do teste *Trapping Rain Water*.
 
 ## Ambiente
 
 Essa aplicação necessita de:
 
 - Node.js 14
+
+### Pacotes Externos
+
+ - jest
+ - pkg 
+ - readline-sync
 
 ### Pré-Requisitos
 
